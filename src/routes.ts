@@ -12,6 +12,6 @@ export default class Routes {
   }
 
   private createRoutes(){
-    this.router.get('/', this.botController.init)
+    this.router.post('/', this.botController.control)
   }
 }
