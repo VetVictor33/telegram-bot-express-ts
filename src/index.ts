@@ -24,7 +24,7 @@ app.post('/', async (req, res) => {
 })
 
 
-const port = process.env.PORT || 80
+const port = process.env.PORT || 81
 app.listen(port, async () => {
   console.log(`App is running on port ${port}`)
   await init()
